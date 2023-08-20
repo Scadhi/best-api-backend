@@ -1,0 +1,13 @@
+server:
+  port: 8123
+#nero:
+#  client:
+#    access-key: nero
+#    secret-key: abcdefgh
+spring:
+  application:
+    name: best-api-interface
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
